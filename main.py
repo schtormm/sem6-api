@@ -9,7 +9,7 @@ app = FastAPI()
 def read_root():
     return {"Hello": "World"}
 
-@app.post("/")
+@app.post("/submit-results")
 def read_csv(file: UploadFile = File(...)):
     csvReader = csv.DictReader(codecs.iterdecode(file.file, 'utf-8'))
     data = {}
@@ -20,3 +20,7 @@ def read_csv(file: UploadFile = File(...)):
     file.file.close()
     print(data)
     return {"status": "ok", "data": data, "message": "Hello World"}
+
+@app.get("/health")
+def health():
+        return {"status": "ok"}
