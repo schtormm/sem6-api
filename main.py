@@ -18,8 +18,8 @@ def read_csv(file: UploadFile = File(...)):
         data[key] = rows
         
     file.file.close()
-    print(data)
-    return {"status": "ok", "data": data, "message": "Hello World"}
+    # ADS&AI black magic goes here
+    return {"data": data}
 
 @app.get("/health")
 def health():
