@@ -1,5 +1,6 @@
 import codecs
 import csv
+import random
 
 from fastapi import FastAPI, File, UploadFile
 
@@ -24,3 +25,15 @@ def read_csv(file: UploadFile = File(...)):
 @app.get("/health")
 def health():
         return {"status": "ok"}
+
+@app.get("/recommendation")
+def recommendation():
+    with open('AI data(Sheet1).csv', 'r') as file:
+        csvreader = csv.reader(file)
+        # Skip header row if it exists
+        next(csvreader)
+        # Convert to list to get random choice
+        data = list(csvreader)
+        random_row = random.choice(data)
+        return {"recommendation": random_row}
+    

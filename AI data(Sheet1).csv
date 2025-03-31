@@ -1,0 +1,301 @@
+Categorie,Naam,Prijsklasse,Keuken,Type Concept,Sfeer,Stijl,Muziekstijl,Type Uitgaan,Adres,Openingstijden,Beoordeling
+Restaurant,Ayat,goedkoop,Westers,fine-dining,druk,,,,"Straat 1, 3011 AA Rotterdam",09:00 - 22:00,3.9
+Uitgaan,Corso,,,,,,techno,bar,"Straat 2, 3012 AA Rotterdam",07:00 - 20:00,3.9
+Musea,Wereldmuseum,,,,,kunst,,,"Straat 3, 3013 AA Rotterdam",08:00 - 23:00,3.7
+Restaurant,Little V,midden,Zuid-Amerikaans,fine-dining,druk,,,,"Straat 4, 3014 AA Rotterdam",08:00 - 23:00,4.1
+Uitgaan,Club Vibes,,,,,,jazz,groot event met ticket,"Straat 5, 3015 AA Rotterdam",10:00 - 00:00,4.1
+Musea,Depot Boijmans,,,,,kunst,,,"Straat 6, 3016 AA Rotterdam",08:00 - 23:00,4.9
+Musea,Maritiem Museum,,,,,Architectuur,,,"Straat 7, 3017 AA Rotterdam",08:00 - 23:00,4.1
+Musea,Belasting & Douane Museum,,,,,Historisch,,,"Straat 8, 3018 AA Rotterdam",09:00 - 22:00,4.5
+Parken,Wilhelminapark,,,,,,,,"Straat 9, 3019 AA Rotterdam",12:00 - 02:00,4.2
+Musea,Het Nieuwe Instituut,,,,,Architectuur,,,"Straat 10, 3010 AA Rotterdam",09:00 - 22:00,4.9
+Parken,Wilhelminapark,,,,,,,,"Straat 11, 3011 AA Rotterdam",08:00 - 23:00,3.8
+Parken,Vroesenpark,,,,,,,,"Straat 12, 3012 AA Rotterdam",10:00 - 00:00,4.3
+Parken,Lage Bergse Bos,,,,,,,,"Straat 13, 3013 AA Rotterdam",07:00 - 20:00,4.3
+Restaurant,Ter Marsch & Co,goedkoop,Westers,fine-dining,druk,,,,"Straat 14, 3014 AA Rotterdam",10:00 - 00:00,4.8
+Restaurant,Little V,goedkoop,Italiaans,standaard concept,chique,,,,"Straat 15, 3015 AA Rotterdam",12:00 - 02:00,4.4
+Parken,Kralingse Bos,,,,,,,,"Straat 16, 3016 AA Rotterdam",12:00 - 02:00,3.8
+Uitgaan,Corso,,,,,,rock,bar,"Straat 17, 3017 AA Rotterdam",07:00 - 20:00,4.1
+Uitgaan,Club Vibes,,,,,,Pop,bar,"Straat 18, 3018 AA Rotterdam",08:00 - 23:00,4.3
+Restaurant,Restaurant Fitzgerald,goedkoop,Midden-Oosten,all-you-can-eat,chique,,,,"Straat 19, 3019 AA Rotterdam",09:00 - 22:00,4.4
+Musea,Het Nieuwe Instituut,,,,,Architectuur,,,"Straat 20, 3010 AA Rotterdam",07:00 - 20:00,4.6
+Restaurant,Umami by Han,goedkoop,Zuid-Amerikaans,fine-dining,chique,,,,"Straat 21, 3011 AA Rotterdam",10:00 - 00:00,4.3
+Parken,Museumpark,,,,,,,,"Straat 22, 3012 AA Rotterdam",07:00 - 20:00,4.5
+Restaurant,Ayat,duur,Westers,fine-dining,druk,,,,"Straat 23, 3013 AA Rotterdam",08:00 - 23:00,4.3
+Uitgaan,Annabel,,,,,,techno,groot event met ticket,"Straat 24, 3014 AA Rotterdam",07:00 - 20:00,4.7
+Parken,Dakpark,,,,,,,,"Straat 25, 3015 AA Rotterdam",12:00 - 02:00,3.7
+Musea,Het Nieuwe Instituut,,,,,fotografie,,,"Straat 26, 3016 AA Rotterdam",07:00 - 20:00,4.3
+Restaurant,Restaurant Fitzgerald,goedkoop,Midden-Oosten,standaard concept,casual,,,,"Straat 27, 3017 AA Rotterdam",08:00 - 23:00,4.3
+Restaurant,Los Toros,midden,Italiaans,fine-dining,rustig,,,,"Straat 28, 3018 AA Rotterdam",12:00 - 02:00,4.2
+Parken,Schiebroekse Park,,,,,,,,"Straat 29, 3019 AA Rotterdam",07:00 - 20:00,3.9
+Uitgaan,Corso,,,,,,jazz,groot event met ticket,"Straat 30, 3010 AA Rotterdam",09:00 - 22:00,4.5
+Parken,Zuiderpark,,,,,,,,"Straat 31, 3011 AA Rotterdam",08:00 - 23:00,4.5
+Restaurant,Ayat,goedkoop,Aziatisch,fine-dining,chique,,,,"Straat 32, 3012 AA Rotterdam",08:00 - 23:00,4.6
+Restaurant,Los Toros,midden,Zuid-Amerikaans,fine-dining,chique,,,,"Straat 33, 3013 AA Rotterdam",07:00 - 20:00,5
+Musea,Maritiem Museum,,,,,Architectuur,,,"Straat 34, 3014 AA Rotterdam",08:00 - 23:00,4.4
+Musea,Wereldmuseum,,,,,fotografie,,,"Straat 35, 3015 AA Rotterdam",09:00 - 22:00,4.9
+Restaurant,Los Toros,goedkoop,Aziatisch,fine-dining,rustig,,,,"Straat 36, 3016 AA Rotterdam",08:00 - 23:00,4.3
+Musea,Boijmans van Beuningen,,,,,kunst,,,"Straat 37, 3017 AA Rotterdam",09:00 - 22:00,4.6
+Musea,Natuurhistorisch Museum,,,,,kunst,,,"Straat 38, 3018 AA Rotterdam",09:00 - 22:00,4
+Uitgaan,Club Vibes,,,,,,house,groot event met ticket,"Straat 39, 3019 AA Rotterdam",08:00 - 23:00,3.6
+Uitgaan,Annabel,,,,,,rock,bar,"Straat 40, 3010 AA Rotterdam",07:00 - 20:00,4.6
+Restaurant,FG Food Labs,midden,Italiaans,standaard concept,casual,,,,"Straat 41, 3011 AA Rotterdam",09:00 - 22:00,4.5
+Parken,Schiebroekse Park,,,,,,,,"Straat 42, 3012 AA Rotterdam",09:00 - 22:00,3.9
+Uitgaan,Club Vie,,,,,,techno,bar,"Straat 43, 3013 AA Rotterdam",10:00 - 00:00,3.8
+Musea,Boijmans van Beuningen,,,,,kunst,,,"Straat 44, 3014 AA Rotterdam",10:00 - 00:00,4
+Parken,Schiebroekse Park,,,,,,,,"Straat 45, 3015 AA Rotterdam",07:00 - 20:00,3.8
+Uitgaan,Club Vibes,,,,,,techno,bar,"Straat 46, 3016 AA Rotterdam",08:00 - 23:00,4.5
+Uitgaan,Ahoy,,,,,,jazz,groot event met ticket,"Straat 47, 3017 AA Rotterdam",07:00 - 20:00,4
+Musea,Boijmans van Beuningen,,,,,kunst,,,"Straat 48, 3018 AA Rotterdam",09:00 - 22:00,4.6
+Restaurant,Little V,goedkoop,Westers,fine-dining,rustig,,,,"Straat 49, 3019 AA Rotterdam",12:00 - 02:00,4.7
+Uitgaan,Club Vibes,,,,,,Pop,bar,"Straat 50, 3010 AA Rotterdam",08:00 - 23:00,4.6
+Restaurant,Ayat,midden,Aziatisch,fine-dining,rustig,,,,"Straat 51, 3011 AA Rotterdam",09:00 - 22:00,4.3
+Uitgaan,Bird,,,,,,rock,bar,"Straat 52, 3012 AA Rotterdam",09:00 - 22:00,4.7
+Musea,Maritiem Museum,,,,,Historisch,,,"Straat 53, 3013 AA Rotterdam",09:00 - 22:00,3.5
+Musea,Chabot Museum,,,,,Architectuur,,,"Straat 54, 3014 AA Rotterdam",12:00 - 02:00,4.6
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 55, 3015 AA Rotterdam",09:00 - 22:00,4.7
+Uitgaan,Maassilo,,,,,,jazz,bar,"Straat 56, 3016 AA Rotterdam",09:00 - 22:00,4.6
+Restaurant,Little V,goedkoop,Westers,standaard concept,chique,,,,"Straat 57, 3017 AA Rotterdam",09:00 - 22:00,3.8
+Musea,Boijmans van Beuningen,,,,,fotografie,,,"Straat 58, 3018 AA Rotterdam",08:00 - 23:00,4.1
+Parken,Kralingse Bos,,,,,,,,"Straat 59, 3019 AA Rotterdam",09:00 - 22:00,4.6
+Musea,Kunsthal,,,,,Architectuur,,,"Straat 60, 3010 AA Rotterdam",12:00 - 02:00,4.9
+Parken,Lage Bergse Bos,,,,,,,,"Straat 61, 3011 AA Rotterdam",08:00 - 23:00,4.6
+Parken,Dakpark,,,,,,,,"Straat 62, 3012 AA Rotterdam",07:00 - 20:00,3.6
+Uitgaan,Annabel,,,,,,jazz,groot event met ticket,"Straat 63, 3013 AA Rotterdam",10:00 - 00:00,4
+Musea,Belasting & Douane Museum,,,,,Architectuur,,,"Straat 64, 3014 AA Rotterdam",07:00 - 20:00,4
+Uitgaan,BAR,,,,,,Pop,groot event met ticket,"Straat 65, 3015 AA Rotterdam",09:00 - 22:00,4.2
+Restaurant,Ter Marsch & Co,midden,Midden-Oosten,standaard concept,rustig,,,,"Straat 66, 3016 AA Rotterdam",12:00 - 02:00,4.5
+Restaurant,FG Food Labs,goedkoop,Zuid-Amerikaans,fine-dining,chique,,,,"Straat 67, 3017 AA Rotterdam",08:00 - 23:00,4
+Restaurant,Ayat,midden,Aziatisch,all-you-can-eat,rustig,,,,"Straat 68, 3018 AA Rotterdam",08:00 - 23:00,3.7
+Parken,Lage Bergse Bos,,,,,,,,"Straat 69, 3019 AA Rotterdam",08:00 - 23:00,4.1
+Parken,Oude Plantage,,,,,,,,"Straat 70, 3010 AA Rotterdam",07:00 - 20:00,3.6
+Uitgaan,Now&Wow,,,,,,techno,groot event met ticket,"Straat 71, 3011 AA Rotterdam",10:00 - 00:00,3.7
+Musea,Nederlands Fotomuseum,,,,,Historisch,,,"Straat 72, 3012 AA Rotterdam",07:00 - 20:00,4
+Uitgaan,Now&Wow,,,,,,rock,bar,"Straat 73, 3013 AA Rotterdam",10:00 - 00:00,4
+Parken,Vroesenpark,,,,,,,,"Straat 74, 3014 AA Rotterdam",09:00 - 22:00,4.9
+Uitgaan,Annabel,,,,,,Pop,bar,"Straat 75, 3015 AA Rotterdam",09:00 - 22:00,4.9
+Parken,Kralingse Bos,,,,,,,,"Straat 76, 3016 AA Rotterdam",07:00 - 20:00,4
+Musea,Wereldmuseum,,,,,Architectuur,,,"Straat 77, 3017 AA Rotterdam",12:00 - 02:00,4.3
+Musea,Chabot Museum,,,,,Historisch,,,"Straat 78, 3018 AA Rotterdam",07:00 - 20:00,3.6
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 79, 3019 AA Rotterdam",07:00 - 20:00,4.5
+Restaurant,De Matroos en het Meisje,goedkoop,Zuid-Amerikaans,fine-dining,druk,,,,"Straat 80, 3010 AA Rotterdam",09:00 - 22:00,3.8
+Parken,Lage Bergse Bos,,,,,,,,"Straat 81, 3011 AA Rotterdam",09:00 - 22:00,3.6
+Restaurant,Umami by Han,midden,Italiaans,standaard concept,chique,,,,"Straat 82, 3012 AA Rotterdam",08:00 - 23:00,4.4
+Uitgaan,Now&Wow,,,,,,rock,groot event met ticket,"Straat 83, 3013 AA Rotterdam",09:00 - 22:00,3.6
+Musea,Wereldmuseum,,,,,Historisch,,,"Straat 84, 3014 AA Rotterdam",09:00 - 22:00,3.8
+Uitgaan,Annabel,,,,,,Pop,bar,"Straat 85, 3015 AA Rotterdam",12:00 - 02:00,3.5
+Uitgaan,Annabel,,,,,,techno,groot event met ticket,"Straat 86, 3016 AA Rotterdam",10:00 - 00:00,4
+Parken,Oude Plantage,,,,,,,,"Straat 87, 3017 AA Rotterdam",09:00 - 22:00,3.8
+Musea,Depot Boijmans,,,,,Architectuur,,,"Straat 88, 3018 AA Rotterdam",10:00 - 00:00,3.9
+Parken,Oude Plantage,,,,,,,,"Straat 89, 3019 AA Rotterdam",09:00 - 22:00,4.3
+Parken,Wilhelminapark,,,,,,,,"Straat 90, 3010 AA Rotterdam",12:00 - 02:00,3.8
+Restaurant,Osteria Liz,duur,Westers,all-you-can-eat,casual,,,,"Straat 91, 3011 AA Rotterdam",12:00 - 02:00,4.8
+Uitgaan,Annabel,,,,,,veranderlijk,groot event met ticket,"Straat 92, 3012 AA Rotterdam",10:00 - 00:00,3.8
+Uitgaan,Ahoy,,,,,,veranderlijk,groot event met ticket,"Straat 93, 3013 AA Rotterdam",10:00 - 00:00,4.7
+Musea,Boijmans van Beuningen,,,,,Architectuur,,,"Straat 94, 3014 AA Rotterdam",12:00 - 02:00,4.8
+Parken,Vroesenpark,,,,,,,,"Straat 95, 3015 AA Rotterdam",07:00 - 20:00,4.4
+Uitgaan,Now&Wow,,,,,,rock,groot event met ticket,"Straat 96, 3016 AA Rotterdam",07:00 - 20:00,4
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 97, 3017 AA Rotterdam",10:00 - 00:00,4.7
+Restaurant,Little V,midden,Midden-Oosten,all-you-can-eat,casual,,,,"Straat 98, 3018 AA Rotterdam",07:00 - 20:00,4.6
+Musea,Chabot Museum,,,,,Architectuur,,,"Straat 99, 3019 AA Rotterdam",09:00 - 22:00,3.9
+Parken,Oude Plantage,,,,,,,,"Straat 100, 3010 AA Rotterdam",07:00 - 20:00,3.7
+Musea,Nederlands Fotomuseum,,,,,kunst,,,"Straat 101, 3011 AA Rotterdam",07:00 - 20:00,4.9
+Uitgaan,Bird,,,,,,rock,bar,"Straat 102, 3012 AA Rotterdam",07:00 - 20:00,4.9
+Musea,Wereldmuseum,,,,,fotografie,,,"Straat 103, 3013 AA Rotterdam",09:00 - 22:00,3.6
+Restaurant,Osteria Liz,duur,Midden-Oosten,all-you-can-eat,rustig,,,,"Straat 104, 3014 AA Rotterdam",09:00 - 22:00,3.6
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 105, 3015 AA Rotterdam",09:00 - 22:00,4.6
+Uitgaan,Club Vibes,,,,,,veranderlijk,groot event met ticket,"Straat 106, 3016 AA Rotterdam",12:00 - 02:00,3.9
+Restaurant,Los Toros,duur,Westers,fine-dining,casual,,,,"Straat 107, 3017 AA Rotterdam",12:00 - 02:00,4.3
+Uitgaan,Bird,,,,,,jazz,bar,"Straat 108, 3018 AA Rotterdam",07:00 - 20:00,4.7
+Musea,Het Nieuwe Instituut,,,,,fotografie,,,"Straat 109, 3019 AA Rotterdam",09:00 - 22:00,4.4
+Musea,Kunsthal,,,,,Historisch,,,"Straat 110, 3010 AA Rotterdam",12:00 - 02:00,4.2
+Parken,Zuiderpark,,,,,,,,"Straat 111, 3011 AA Rotterdam",08:00 - 23:00,4.9
+Uitgaan,Bird,,,,,,techno,bar,"Straat 112, 3012 AA Rotterdam",08:00 - 23:00,4.6
+Musea,Belasting & Douane Museum,,,,,kunst,,,"Straat 113, 3013 AA Rotterdam",08:00 - 23:00,3.9
+Uitgaan,Club Vie,,,,,,house,groot event met ticket,"Straat 114, 3014 AA Rotterdam",10:00 - 00:00,3.7
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 115, 3015 AA Rotterdam",07:00 - 20:00,4.3
+Musea,Kunsthal,,,,,Historisch,,,"Straat 116, 3016 AA Rotterdam",07:00 - 20:00,3.6
+Musea,Wereldmuseum,,,,,Architectuur,,,"Straat 117, 3017 AA Rotterdam",10:00 - 00:00,4.8
+Musea,Boijmans van Beuningen,,,,,fotografie,,,"Straat 118, 3018 AA Rotterdam",12:00 - 02:00,4.5
+Uitgaan,BAR,,,,,,veranderlijk,bar,"Straat 119, 3019 AA Rotterdam",12:00 - 02:00,3.9
+Parken,Zuiderpark,,,,,,,,"Straat 120, 3010 AA Rotterdam",07:00 - 20:00,5
+Parken,Vroesenpark,,,,,,,,"Straat 121, 3011 AA Rotterdam",09:00 - 22:00,4.8
+Musea,Belasting & Douane Museum,,,,,fotografie,,,"Straat 122, 3012 AA Rotterdam",10:00 - 00:00,4.5
+Musea,Maritiem Museum,,,,,Architectuur,,,"Straat 123, 3013 AA Rotterdam",10:00 - 00:00,4.9
+Restaurant,Los Toros,duur,Midden-Oosten,standaard concept,chique,,,,"Straat 124, 3014 AA Rotterdam",12:00 - 02:00,4.2
+Musea,Maritiem Museum,,,,,Architectuur,,,"Straat 125, 3015 AA Rotterdam",07:00 - 20:00,3.6
+Uitgaan,Maassilo,,,,,,jazz,groot event met ticket,"Straat 126, 3016 AA Rotterdam",09:00 - 22:00,3.6
+Musea,Wereldmuseum,,,,,Architectuur,,,"Straat 127, 3017 AA Rotterdam",09:00 - 22:00,3.9
+Uitgaan,Annabel,,,,,,techno,groot event met ticket,"Straat 128, 3018 AA Rotterdam",12:00 - 02:00,4.9
+Musea,Het Nieuwe Instituut,,,,,Historisch,,,"Straat 129, 3019 AA Rotterdam",12:00 - 02:00,4.1
+Musea,Nederlands Fotomuseum,,,,,fotografie,,,"Straat 130, 3010 AA Rotterdam",07:00 - 20:00,3.7
+Parken,Museumpark,,,,,,,,"Straat 131, 3011 AA Rotterdam",08:00 - 23:00,4.8
+Musea,Kunsthal,,,,,fotografie,,,"Straat 132, 3012 AA Rotterdam",09:00 - 22:00,4.9
+Uitgaan,Bird,,,,,,rock,bar,"Straat 133, 3013 AA Rotterdam",10:00 - 00:00,4.7
+Restaurant,Ayat,goedkoop,Italiaans,all-you-can-eat,chique,,,,"Straat 134, 3014 AA Rotterdam",12:00 - 02:00,4.5
+Uitgaan,Now&Wow,,,,,,rock,groot event met ticket,"Straat 135, 3015 AA Rotterdam",10:00 - 00:00,4.8
+Parken,Museumpark,,,,,,,,"Straat 136, 3016 AA Rotterdam",07:00 - 20:00,4.6
+Restaurant,Restaurant Fitzgerald,goedkoop,Zuid-Amerikaans,all-you-can-eat,chique,,,,"Straat 137, 3017 AA Rotterdam",09:00 - 22:00,4.8
+Uitgaan,Annabel,,,,,,techno,groot event met ticket,"Straat 138, 3018 AA Rotterdam",09:00 - 22:00,3.8
+Parken,Wilhelminapark,,,,,,,,"Straat 139, 3019 AA Rotterdam",12:00 - 02:00,4.9
+Restaurant,Ter Marsch & Co,goedkoop,Westers,all-you-can-eat,casual,,,,"Straat 140, 3010 AA Rotterdam",07:00 - 20:00,4
+Uitgaan,BAR,,,,,,house,groot event met ticket,"Straat 141, 3011 AA Rotterdam",10:00 - 00:00,3.8
+Musea,Nederlands Fotomuseum,,,,,Architectuur,,,"Straat 142, 3012 AA Rotterdam",12:00 - 02:00,4
+Musea,Het Nieuwe Instituut,,,,,kunst,,,"Straat 143, 3013 AA Rotterdam",09:00 - 22:00,4.1
+Uitgaan,Corso,,,,,,house,bar,"Straat 144, 3014 AA Rotterdam",12:00 - 02:00,3.5
+Musea,Boijmans van Beuningen,,,,,fotografie,,,"Straat 145, 3015 AA Rotterdam",10:00 - 00:00,4.2
+Restaurant,Osteria Liz,midden,Zuid-Amerikaans,fine-dining,rustig,,,,"Straat 146, 3016 AA Rotterdam",10:00 - 00:00,4.2
+Restaurant,Los Toros,midden,Italiaans,fine-dining,rustig,,,,"Straat 147, 3017 AA Rotterdam",12:00 - 02:00,4.8
+Restaurant,Ter Marsch & Co,midden,Midden-Oosten,standaard concept,chique,,,,"Straat 148, 3018 AA Rotterdam",09:00 - 22:00,4.9
+Musea,Belasting & Douane Museum,,,,,kunst,,,"Straat 149, 3019 AA Rotterdam",08:00 - 23:00,4.1
+Parken,Lage Bergse Bos,,,,,,,,"Straat 150, 3010 AA Rotterdam",08:00 - 23:00,4.3
+Musea,Natuurhistorisch Museum,,,,,Architectuur,,,"Straat 151, 3011 AA Rotterdam",07:00 - 20:00,3.8
+Parken,Schiebroekse Park,,,,,,,,"Straat 152, 3012 AA Rotterdam",10:00 - 00:00,5
+Parken,Zuiderpark,,,,,,,,"Straat 153, 3013 AA Rotterdam",10:00 - 00:00,4.3
+Parken,Schiebroekse Park,,,,,,,,"Straat 154, 3014 AA Rotterdam",12:00 - 02:00,4
+Musea,Natuurhistorisch Museum,,,,,Architectuur,,,"Straat 155, 3015 AA Rotterdam",08:00 - 23:00,4.9
+Uitgaan,Corso,,,,,,veranderlijk,bar,"Straat 156, 3016 AA Rotterdam",12:00 - 02:00,4
+Parken,Kralingse Bos,,,,,,,,"Straat 157, 3017 AA Rotterdam",08:00 - 23:00,4.3
+Uitgaan,BAR,,,,,,house,bar,"Straat 158, 3018 AA Rotterdam",12:00 - 02:00,4.5
+Uitgaan,Club Vie,,,,,,house,groot event met ticket,"Straat 159, 3019 AA Rotterdam",08:00 - 23:00,4.9
+Parken,Kralingse Bos,,,,,,,,"Straat 160, 3010 AA Rotterdam",08:00 - 23:00,4
+Parken,Lage Bergse Bos,,,,,,,,"Straat 161, 3011 AA Rotterdam",10:00 - 00:00,4.4
+Uitgaan,Annabel,,,,,,house,bar,"Straat 162, 3012 AA Rotterdam",10:00 - 00:00,4.8
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 163, 3013 AA Rotterdam",12:00 - 02:00,4.3
+Restaurant,Osteria Liz,duur,Midden-Oosten,fine-dining,casual,,,,"Straat 164, 3014 AA Rotterdam",08:00 - 23:00,3.9
+Uitgaan,Toffler,,,,,,rock,bar,"Straat 165, 3015 AA Rotterdam",12:00 - 02:00,4.2
+Parken,Dakpark,,,,,,,,"Straat 166, 3016 AA Rotterdam",09:00 - 22:00,3.7
+Restaurant,Los Toros,goedkoop,Westers,standaard concept,druk,,,,"Straat 167, 3017 AA Rotterdam",07:00 - 20:00,4.6
+Musea,Nederlands Fotomuseum,,,,,kunst,,,"Straat 168, 3018 AA Rotterdam",10:00 - 00:00,4.8
+Restaurant,De Matroos en het Meisje,goedkoop,Zuid-Amerikaans,all-you-can-eat,rustig,,,,"Straat 169, 3019 AA Rotterdam",12:00 - 02:00,4.6
+Musea,Maritiem Museum,,,,,fotografie,,,"Straat 170, 3010 AA Rotterdam",08:00 - 23:00,3.5
+Musea,Depot Boijmans,,,,,Architectuur,,,"Straat 171, 3011 AA Rotterdam",07:00 - 20:00,3.7
+Restaurant,Restaurant Fitzgerald,midden,Midden-Oosten,fine-dining,casual,,,,"Straat 172, 3012 AA Rotterdam",07:00 - 20:00,3.6
+Musea,Maritiem Museum,,,,,kunst,,,"Straat 173, 3013 AA Rotterdam",10:00 - 00:00,4.8
+Restaurant,Little V,goedkoop,Westers,fine-dining,chique,,,,"Straat 174, 3014 AA Rotterdam",10:00 - 00:00,4.8
+Parken,Dakpark,,,,,,,,"Straat 175, 3015 AA Rotterdam",10:00 - 00:00,3.6
+Restaurant,Ayat,goedkoop,Aziatisch,standaard concept,casual,,,,"Straat 176, 3016 AA Rotterdam",10:00 - 00:00,4.4
+Restaurant,Little V,goedkoop,Aziatisch,fine-dining,druk,,,,"Straat 177, 3017 AA Rotterdam",09:00 - 22:00,4.3
+Uitgaan,Toffler,,,,,,rock,bar,"Straat 178, 3018 AA Rotterdam",12:00 - 02:00,4.3
+Musea,Natuurhistorisch Museum,,,,,Historisch,,,"Straat 179, 3019 AA Rotterdam",10:00 - 00:00,4.9
+Restaurant,Umami by Han,midden,Aziatisch,fine-dining,rustig,,,,"Straat 180, 3010 AA Rotterdam",08:00 - 23:00,4.9
+Musea,Het Nieuwe Instituut,,,,,kunst,,,"Straat 181, 3011 AA Rotterdam",08:00 - 23:00,4.9
+Musea,Kunsthal,,,,,Architectuur,,,"Straat 182, 3012 AA Rotterdam",12:00 - 02:00,4.7
+Uitgaan,Toffler,,,,,,veranderlijk,bar,"Straat 183, 3013 AA Rotterdam",07:00 - 20:00,4.5
+Parken,Schiebroekse Park,,,,,,,,"Straat 184, 3014 AA Rotterdam",07:00 - 20:00,3.6
+Parken,Kralingse Bos,,,,,,,,"Straat 185, 3015 AA Rotterdam",07:00 - 20:00,4.9
+Restaurant,Restaurant Fitzgerald,midden,Midden-Oosten,all-you-can-eat,rustig,,,,"Straat 186, 3016 AA Rotterdam",07:00 - 20:00,4.5
+Restaurant,Bazar,duur,Aziatisch,fine-dining,druk,,,,"Straat 187, 3017 AA Rotterdam",12:00 - 02:00,4.8
+Musea,Belasting & Douane Museum,,,,,Historisch,,,"Straat 188, 3018 AA Rotterdam",08:00 - 23:00,3.6
+Restaurant,Umami by Han,midden,Midden-Oosten,standaard concept,chique,,,,"Straat 189, 3019 AA Rotterdam",07:00 - 20:00,4.3
+Uitgaan,Club Vibes,,,,,,veranderlijk,bar,"Straat 190, 3010 AA Rotterdam",10:00 - 00:00,3.6
+Uitgaan,Bird,,,,,,techno,groot event met ticket,"Straat 191, 3011 AA Rotterdam",08:00 - 23:00,4.8
+Restaurant,De Matroos en het Meisje,goedkoop,Westers,all-you-can-eat,rustig,,,,"Straat 192, 3012 AA Rotterdam",08:00 - 23:00,4.8
+Parken,Schiebroekse Park,,,,,,,,"Straat 193, 3013 AA Rotterdam",08:00 - 23:00,4.3
+Restaurant,Ter Marsch & Co,duur,Midden-Oosten,all-you-can-eat,rustig,,,,"Straat 194, 3014 AA Rotterdam",12:00 - 02:00,3.7
+Parken,Oude Plantage,,,,,,,,"Straat 195, 3015 AA Rotterdam",07:00 - 20:00,4.9
+Parken,Lage Bergse Bos,,,,,,,,"Straat 196, 3016 AA Rotterdam",12:00 - 02:00,3.9
+Parken,Oude Plantage,,,,,,,,"Straat 197, 3017 AA Rotterdam",10:00 - 00:00,3.6
+Parken,Schiebroekse Park,,,,,,,,"Straat 198, 3018 AA Rotterdam",10:00 - 00:00,3.6
+Restaurant,Ayat,goedkoop,Westers,all-you-can-eat,druk,,,,"Straat 199, 3019 AA Rotterdam",08:00 - 23:00,4
+Parken,Schiebroekse Park,,,,,,,,"Straat 200, 3010 AA Rotterdam",07:00 - 20:00,4.7
+Musea,Belasting & Douane Museum,,,,,fotografie,,,"Straat 201, 3011 AA Rotterdam",12:00 - 02:00,3.5
+Restaurant,FG Food Labs,duur,Aziatisch,standaard concept,casual,,,,"Straat 202, 3012 AA Rotterdam",09:00 - 22:00,3.9
+Parken,Wilhelminapark,,,,,,,,"Straat 203, 3013 AA Rotterdam",09:00 - 22:00,4.5
+Parken,Lage Bergse Bos,,,,,,,,"Straat 204, 3014 AA Rotterdam",09:00 - 22:00,3.9
+Musea,Het Nieuwe Instituut,,,,,kunst,,,"Straat 205, 3015 AA Rotterdam",10:00 - 00:00,3.8
+Musea,Depot Boijmans,,,,,fotografie,,,"Straat 206, 3016 AA Rotterdam",10:00 - 00:00,4.1
+Uitgaan,Toffler,,,,,,veranderlijk,bar,"Straat 207, 3017 AA Rotterdam",09:00 - 22:00,4.1
+Uitgaan,Toffler,,,,,,jazz,groot event met ticket,"Straat 208, 3018 AA Rotterdam",12:00 - 02:00,3.9
+Restaurant,Little V,midden,Midden-Oosten,standaard concept,druk,,,,"Straat 209, 3019 AA Rotterdam",07:00 - 20:00,4.3
+Uitgaan,Bird,,,,,,jazz,bar,"Straat 210, 3010 AA Rotterdam",09:00 - 22:00,3.7
+Parken,Museumpark,,,,,,,,"Straat 211, 3011 AA Rotterdam",07:00 - 20:00,4.4
+Restaurant,FG Food Labs,midden,Westers,all-you-can-eat,rustig,,,,"Straat 212, 3012 AA Rotterdam",10:00 - 00:00,4.5
+Uitgaan,Club Vibes,,,,,,house,bar,"Straat 213, 3013 AA Rotterdam",09:00 - 22:00,4.7
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 214, 3014 AA Rotterdam",12:00 - 02:00,4.6
+Restaurant,FG Food Labs,duur,Westers,standaard concept,rustig,,,,"Straat 215, 3015 AA Rotterdam",12:00 - 02:00,4
+Restaurant,Los Toros,midden,Westers,all-you-can-eat,druk,,,,"Straat 216, 3016 AA Rotterdam",10:00 - 00:00,3.6
+Restaurant,FG Food Labs,goedkoop,Midden-Oosten,standaard concept,chique,,,,"Straat 217, 3017 AA Rotterdam",10:00 - 00:00,3.5
+Musea,Kunsthal,,,,,kunst,,,"Straat 218, 3018 AA Rotterdam",08:00 - 23:00,3.7
+Restaurant,Umami by Han,duur,Zuid-Amerikaans,all-you-can-eat,chique,,,,"Straat 219, 3019 AA Rotterdam",09:00 - 22:00,3.8
+Musea,Het Nieuwe Instituut,,,,,kunst,,,"Straat 220, 3010 AA Rotterdam",12:00 - 02:00,3.8
+Parken,Wilhelminapark,,,,,,,,"Straat 221, 3011 AA Rotterdam",10:00 - 00:00,3.9
+Uitgaan,Annabel,,,,,,house,groot event met ticket,"Straat 222, 3012 AA Rotterdam",12:00 - 02:00,4.7
+Musea,Maritiem Museum,,,,,Architectuur,,,"Straat 223, 3013 AA Rotterdam",12:00 - 02:00,4.1
+Parken,Kralingse Bos,,,,,,,,"Straat 224, 3014 AA Rotterdam",08:00 - 23:00,4.4
+Uitgaan,Club Vie,,,,,,jazz,groot event met ticket,"Straat 225, 3015 AA Rotterdam",07:00 - 20:00,4.3
+Musea,Chabot Museum,,,,,Historisch,,,"Straat 226, 3016 AA Rotterdam",08:00 - 23:00,4.8
+Uitgaan,Ahoy,,,,,,house,groot event met ticket,"Straat 227, 3017 AA Rotterdam",07:00 - 20:00,4.8
+Restaurant,Restaurant Fitzgerald,goedkoop,Midden-Oosten,fine-dining,druk,,,,"Straat 228, 3018 AA Rotterdam",07:00 - 20:00,4
+Parken,Dakpark,,,,,,,,"Straat 229, 3019 AA Rotterdam",12:00 - 02:00,4.8
+Uitgaan,Annabel,,,,,,techno,groot event met ticket,"Straat 230, 3010 AA Rotterdam",10:00 - 00:00,4
+Parken,Museumpark,,,,,,,,"Straat 231, 3011 AA Rotterdam",07:00 - 20:00,3.9
+Parken,Zuiderpark,,,,,,,,"Straat 232, 3012 AA Rotterdam",09:00 - 22:00,3.9
+Parken,Vroesenpark,,,,,,,,"Straat 233, 3013 AA Rotterdam",08:00 - 23:00,3.8
+Restaurant,Los Toros,midden,Westers,all-you-can-eat,rustig,,,,"Straat 234, 3014 AA Rotterdam",10:00 - 00:00,4
+Musea,Het Nieuwe Instituut,,,,,kunst,,,"Straat 235, 3015 AA Rotterdam",12:00 - 02:00,4.6
+Musea,Maritiem Museum,,,,,Architectuur,,,"Straat 236, 3016 AA Rotterdam",07:00 - 20:00,4
+Musea,Belasting & Douane Museum,,,,,kunst,,,"Straat 237, 3017 AA Rotterdam",12:00 - 02:00,4.3
+Uitgaan,Club Vie,,,,,,rock,bar,"Straat 238, 3018 AA Rotterdam",10:00 - 00:00,3.7
+Uitgaan,Maassilo,,,,,,jazz,bar,"Straat 239, 3019 AA Rotterdam",09:00 - 22:00,4.7
+Musea,Chabot Museum,,,,,kunst,,,"Straat 240, 3010 AA Rotterdam",12:00 - 02:00,4
+Uitgaan,Toffler,,,,,,house,bar,"Straat 241, 3011 AA Rotterdam",10:00 - 00:00,3.7
+Uitgaan,Toffler,,,,,,veranderlijk,groot event met ticket,"Straat 242, 3012 AA Rotterdam",10:00 - 00:00,4.8
+Uitgaan,Club Vie,,,,,,jazz,bar,"Straat 243, 3013 AA Rotterdam",07:00 - 20:00,4.8
+Musea,Nederlands Fotomuseum,,,,,Historisch,,,"Straat 244, 3014 AA Rotterdam",09:00 - 22:00,3.6
+Uitgaan,Now&Wow,,,,,,techno,groot event met ticket,"Straat 245, 3015 AA Rotterdam",10:00 - 00:00,4.5
+Restaurant,FG Food Labs,midden,Italiaans,standaard concept,druk,,,,"Straat 246, 3016 AA Rotterdam",07:00 - 20:00,4.7
+Restaurant,De Matroos en het Meisje,goedkoop,Midden-Oosten,fine-dining,druk,,,,"Straat 247, 3017 AA Rotterdam",10:00 - 00:00,5
+Uitgaan,Club Vibes,,,,,,house,groot event met ticket,"Straat 248, 3018 AA Rotterdam",08:00 - 23:00,4.1
+Uitgaan,Club Vibes,,,,,,techno,bar,"Straat 249, 3019 AA Rotterdam",09:00 - 22:00,4.9
+Restaurant,Umami by Han,midden,Aziatisch,standaard concept,casual,,,,"Straat 250, 3010 AA Rotterdam",08:00 - 23:00,4.4
+Musea,Het Nieuwe Instituut,,,,,Architectuur,,,"Straat 251, 3011 AA Rotterdam",12:00 - 02:00,4.1
+Restaurant,Restaurant Fitzgerald,midden,Zuid-Amerikaans,all-you-can-eat,casual,,,,"Straat 252, 3012 AA Rotterdam",09:00 - 22:00,3.6
+Restaurant,Little V,goedkoop,Zuid-Amerikaans,all-you-can-eat,chique,,,,"Straat 253, 3013 AA Rotterdam",08:00 - 23:00,4.8
+Parken,Vroesenpark,,,,,,,,"Straat 254, 3014 AA Rotterdam",08:00 - 23:00,4
+Musea,Belasting & Douane Museum,,,,,kunst,,,"Straat 255, 3015 AA Rotterdam",09:00 - 22:00,3.9
+Parken,Dakpark,,,,,,,,"Straat 256, 3016 AA Rotterdam",07:00 - 20:00,4.9
+Parken,Kralingse Bos,,,,,,,,"Straat 257, 3017 AA Rotterdam",08:00 - 23:00,3.9
+Restaurant,Ayat,goedkoop,Midden-Oosten,all-you-can-eat,casual,,,,"Straat 258, 3018 AA Rotterdam",12:00 - 02:00,4.9
+Musea,Natuurhistorisch Museum,,,,,Historisch,,,"Straat 259, 3019 AA Rotterdam",07:00 - 20:00,4.7
+Parken,Schiebroekse Park,,,,,,,,"Straat 260, 3010 AA Rotterdam",10:00 - 00:00,3.6
+Uitgaan,Club Vie,,,,,,Pop,groot event met ticket,"Straat 261, 3011 AA Rotterdam",12:00 - 02:00,4.2
+Restaurant,Bazar,midden,Zuid-Amerikaans,all-you-can-eat,casual,,,,"Straat 262, 3012 AA Rotterdam",07:00 - 20:00,4.6
+Uitgaan,Corso,,,,,,techno,groot event met ticket,"Straat 263, 3013 AA Rotterdam",12:00 - 02:00,4.6
+Parken,Dakpark,,,,,,,,"Straat 264, 3014 AA Rotterdam",10:00 - 00:00,3.5
+Uitgaan,Ahoy,,,,,,house,bar,"Straat 265, 3015 AA Rotterdam",08:00 - 23:00,4.6
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 266, 3016 AA Rotterdam",10:00 - 00:00,3.6
+Parken,Zuiderpark,,,,,,,,"Straat 267, 3017 AA Rotterdam",08:00 - 23:00,4.7
+Parken,Schiebroekse Park,,,,,,,,"Straat 268, 3018 AA Rotterdam",09:00 - 22:00,3.7
+Musea,Het Nieuwe Instituut,,,,,fotografie,,,"Straat 269, 3019 AA Rotterdam",12:00 - 02:00,3.6
+Restaurant,FG Food Labs,goedkoop,Aziatisch,fine-dining,rustig,,,,"Straat 270, 3010 AA Rotterdam",07:00 - 20:00,4.1
+Uitgaan,Bird,,,,,,veranderlijk,bar,"Straat 271, 3011 AA Rotterdam",10:00 - 00:00,4.6
+Parken,Lage Bergse Bos,,,,,,,,"Straat 272, 3012 AA Rotterdam",08:00 - 23:00,4
+Parken,Zuiderpark,,,,,,,,"Straat 273, 3013 AA Rotterdam",12:00 - 02:00,3.7
+Restaurant,Umami by Han,midden,Zuid-Amerikaans,standaard concept,casual,,,,"Straat 274, 3014 AA Rotterdam",10:00 - 00:00,3.9
+Restaurant,De Matroos en het Meisje,goedkoop,Aziatisch,standaard concept,druk,,,,"Straat 275, 3015 AA Rotterdam",10:00 - 00:00,3.6
+Parken,Vroesenpark,,,,,,,,"Straat 276, 3016 AA Rotterdam",10:00 - 00:00,4.5
+Restaurant,Osteria Liz,duur,Westers,standaard concept,chique,,,,"Straat 277, 3017 AA Rotterdam",12:00 - 02:00,4.2
+Uitgaan,Toffler,,,,,,jazz,bar,"Straat 278, 3018 AA Rotterdam",09:00 - 22:00,4.7
+Musea,Chabot Museum,,,,,fotografie,,,"Straat 279, 3019 AA Rotterdam",07:00 - 20:00,4.9
+Musea,Belasting & Douane Museum,,,,,Architectuur,,,"Straat 280, 3010 AA Rotterdam",09:00 - 22:00,4
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 281, 3011 AA Rotterdam",09:00 - 22:00,4.8
+Uitgaan,Annabel,,,,,,rock,bar,"Straat 282, 3012 AA Rotterdam",09:00 - 22:00,4.2
+Parken,Het Park bij de Euromast,,,,,,,,"Straat 283, 3013 AA Rotterdam",08:00 - 23:00,4.5
+Restaurant,FG Food Labs,midden,Zuid-Amerikaans,standaard concept,rustig,,,,"Straat 284, 3014 AA Rotterdam",10:00 - 00:00,3.7
+Parken,Oude Plantage,,,,,,,,"Straat 285, 3015 AA Rotterdam",07:00 - 20:00,4
+Parken,Museumpark,,,,,,,,"Straat 286, 3016 AA Rotterdam",10:00 - 00:00,3.5
+Uitgaan,Maassilo,,,,,,jazz,groot event met ticket,"Straat 287, 3017 AA Rotterdam",08:00 - 23:00,3.6
+Parken,Museumpark,,,,,,,,"Straat 288, 3018 AA Rotterdam",10:00 - 00:00,4.8
+Restaurant,FG Food Labs,duur,Italiaans,standaard concept,chique,,,,"Straat 289, 3019 AA Rotterdam",08:00 - 23:00,5
+Musea,Depot Boijmans,,,,,Architectuur,,,"Straat 290, 3010 AA Rotterdam",12:00 - 02:00,4.5
+Parken,Museumpark,,,,,,,,"Straat 291, 3011 AA Rotterdam",07:00 - 20:00,4.7
+Musea,Natuurhistorisch Museum,,,,,Historisch,,,"Straat 292, 3012 AA Rotterdam",09:00 - 22:00,4.9
+Parken,Museumpark,,,,,,,,"Straat 293, 3013 AA Rotterdam",12:00 - 02:00,4.1
+Musea,Depot Boijmans,,,,,Architectuur,,,"Straat 294, 3014 AA Rotterdam",08:00 - 23:00,3.9
+Restaurant,Ayat,duur,Zuid-Amerikaans,standaard concept,rustig,,,,"Straat 295, 3015 AA Rotterdam",07:00 - 20:00,4.3
+Restaurant,Bazar,duur,Midden-Oosten,fine-dining,casual,,,,"Straat 296, 3016 AA Rotterdam",09:00 - 22:00,4.2
+Parken,Dakpark,,,,,,,,"Straat 297, 3017 AA Rotterdam",10:00 - 00:00,4.5
+Uitgaan,Club Vibes,,,,,,jazz,bar,"Straat 298, 3018 AA Rotterdam",10:00 - 00:00,4.3
+Restaurant,Bazar,midden,Italiaans,fine-dining,rustig,,,,"Straat 299, 3019 AA Rotterdam",12:00 - 02:00,4.8
+Musea,Boijmans van Beuningen,,,,,kunst,,,"Straat 300, 3010 AA Rotterdam",08:00 - 23:00,4
