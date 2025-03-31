@@ -4,11 +4,13 @@ import random
 
 from fastapi import FastAPI, File, UploadFile
 
+from utils import convertRecommendationToModel
+
 app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"message": "Hello world!"}
 
 @app.post("/submit-results")
 def read_csv(file: UploadFile = File(...)):
@@ -29,11 +31,13 @@ def health():
 @app.get("/recommendation")
 def recommendation():
     with open('AI data(Sheet1).csv', 'r') as file:
-        csvreader = csv.reader(file)
-        # Skip header row if it exists
-        next(csvreader)
-        # Convert to list to get random choice
+        csvreader = csv.DictReader(file)
+
         data = list(csvreader)
-        random_row = random.choice(data)
-        return {"recommendation": random_row}
+        #pick random recommendation
+        random_recommendation = random.choice(data)
+        #convert to dictionary
+        random_recommendation = dict(random_recommendation)
+
+        return {"recommendation": convertRecommendationToModel(random_recommendation)}
     
