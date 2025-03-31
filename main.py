@@ -29,11 +29,13 @@ def health():
         return {"status": "ok"}
 
 @app.get("/recommendation")
-def recommendation():
+def recommendation(minimum_rating: float = 0.0):
     with open('AI data(Sheet1).csv', 'r') as file:
         csvreader = csv.DictReader(file)
 
         data = list(csvreader)
+        #filter out recommendations with a rating lower than the minimum rating
+        data = [row for row in data if float(row["Beoordeling"]) >= minimum_rating]
         #pick random recommendation
         random_recommendation = random.choice(data)
         #convert to dictionary
