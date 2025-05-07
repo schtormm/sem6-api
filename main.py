@@ -10,7 +10,7 @@ from utils import convertRecommendationToModel
 app = FastAPI()
 
 @app.get("/")
-def read_root():
+def hello_world():
     return {"message": "Hello world!"}
 
 @app.post("/submit-results")
@@ -43,27 +43,40 @@ def health():
 
 @app.get("/recommendation")
 def recommendation(minimum_rating: float = 0.0):
-    with open('AI data(Sheet1).csv', 'r') as file:
-        csvreader = csv.DictReader(file)
+    try:
+        with open('fakedata.csv', 'r') as file:
+                csvreader = csv.DictReader(file)  
 
-        data = list(csvreader)
-        #filter out recommendations with a rating lower than the minimum rating
-        if minimum_rating > 0 and minimum_rating <= 5:
-            data = [row for row in data if float(row["Beoordeling"]) >= minimum_rating]
-        #pick random recommendation
-        random_recommendation = random.choice(data)
-        #convert to dictionary
-        random_recommendation = dict(random_recommendation)
+                data = list(csvreader)
+                if not data:
+                    raise HTTPException(status_code=500, detail="File is empty or corrupted")
+                #filter out recommendations with a rating lower than the minimum rating
+                if minimum_rating > 0 and minimum_rating <= 5:
+                    data = [row for row in data if float(row["Beoordeling"]) >= minimum_rating]
+                #pick random recommendation
+                random_recommendation = random.choice(data)
+                #convert to dictionary
+                random_recommendation = dict(random_recommendation)
 
-        return {"recommendation": convertRecommendationToModel(random_recommendation)}
-    
+    except csv.Error as e:
+            raise HTTPException(status_code=500, detail="File is empty or corrupted")
+        
+    return {"recommendation": convertRecommendationToModel(random_recommendation)}
+
 @app.post("/unity-results")
 async def get_results(request: Request):
         try:
             #get body from request
             body =  await request.json()
+            #check if body is empty or corrupted
+            if not body:
+                raise HTTPException(status_code=400, detail="Body is empty or corrupted")
+            #check if body is a dictionary
             #get the data from the body
             data = body["test"]
+            # if data is not there, raise an error
+            if not data:
+                raise HTTPException(status_code=400, detail="Data is empty or corrupted")
             #convert to dictionary
             data = dict(data)
             print(data)
