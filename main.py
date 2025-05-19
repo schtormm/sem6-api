@@ -13,28 +13,28 @@ app = FastAPI()
 def hello_world():
     return {"message": "Hello world!"}
 
-@app.post("/submit-results")
-def read_csv(file: UploadFile = File(...)):
-    try:
-        # Check if the file is a CSV
-        if not file.filename.endswith('.csv'):
-            return {"error": "File is not a CSV"}
-        csvReader = csv.DictReader(codecs.iterdecode(file.file, 'utf-8'))
-        #check if CSV is empty or corrupted
-        if csvReader is None:
-            return {"error": "File is empty or corrupted"}
-        data = {}
-        for rows in csvReader:
-            key = rows["test"]
-            data[key] = rows
+# @app.post("/submit-results")
+# def read_csv(file: UploadFile = File(...)):
+#     try:
+#         # Check if the file is a CSV
+#         if not file.filename.endswith('.csv'):
+#             return {"error": "File is not a CSV"}
+#         csvReader = csv.DictReader(codecs.iterdecode(file.file, 'utf-8'))
+#         #check if CSV is empty or corrupted
+#         if csvReader is None:
+#             return {"error": "File is empty or corrupted"}
+#         data = {}
+#         for rows in csvReader:
+#             key = rows["test"]
+#             data[key] = rows
         
-        file.file.close()
-        return {"data": data}
-    # ADS&AI black magic goes here
-    except csv.Error as e:
-        return {"error": "File is empty or corrupted"}
-    except Exception as e:
-        return {"error": "An error occurred while processing the file"}
+#         file.file.close()
+#         return {"data": data}
+#     # ADS&AI black magic goes here
+#     except csv.Error as e:
+#         return {"error": "File is empty or corrupted"}
+#     except Exception as e:
+#         return {"error": "An error occurred while processing the file"}
     
 
 @app.get("/health")
@@ -43,6 +43,8 @@ def health():
 
 @app.get("/recommendation")
 def recommendation(minimum_rating: float = 0.0):
+    if minimum_rating < 0 or minimum_rating > 5:
+        raise HTTPException(status_code=400, detail="Minimum rating must be between 0 and 5")
     try:
         with open('fakedata.csv', 'r') as file:
                 csvreader = csv.DictReader(file)  
