@@ -1,6 +1,6 @@
 # Semester 6 - API
 
-## Gebruik
+## Handleiding
 
 - `git clone` dit repo naar je server / apparaat
 - Maak een Python virtual environment aan (handleiding [hier](https://docs.python.org/3/library/venv.html))
