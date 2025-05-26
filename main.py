@@ -65,8 +65,54 @@ def recommendation(minimum_rating: float = 0.0):
         
     return {"recommendation": convertRecommendationToModel(random_recommendation)}
 
-@app.post("/unity-results")
-async def get_results(request: Request):
+@app.get("/recommendations")
+async def parse_answers(request: Request):
+        try:
+            #get body from request
+            body =  await request.json()
+            #check if body is empty or corrupted
+            if not body:
+                raise HTTPException(status_code=400, detail="Body is empty or corrupted")
+            #check if body is a dictionary
+            if not isinstance(body, dict):
+                raise HTTPException(status_code=400, detail="Body is not a dictionary")
+            #get the data from the body
+            data = body["answers"]
+            # if data is not there, raise an error
+            if not data:
+                raise HTTPException(status_code=400, detail="Data is empty or corrupted")
+            #convert to dictionary
+            data = dict(data)
+            # get the client id
+            client_id = body.get("client")
+            if not client_id:
+                raise HTTPException(status_code=400, detail="Client ID is missing")
+            # check if client_id is a valid UUID
+            if not isinstance(client_id, str):
+                raise HTTPException(status_code=400, detail="Client ID must be a string")
+            # parse the answers
+            parsed_answers = []
+            for answer in data:
+                if not isinstance(answer, dict):
+                    raise HTTPException(status_code=400, detail="Answer must be a dictionary")
+                answer_id = answer.get("id")
+                question_type = answer.get("question_type")
+                answer_value = answer.get("answer")
+                if not answer_id or not question_type or answer_value is None:
+                    raise HTTPException(status_code=400, detail="Answer is missing required fields")
+                parsed_answers.append({
+                    "id": answer_id,
+                    "question_type": question_type,
+                    "answer": answer_value
+                })
+            return (f"Client ID: {client_id}, Parsed Answers: {parsed_answers}")
+        except json.JSONDecodeError as e:
+            raise HTTPException(status_code=400, detail="Invalid JSON format")
+        except Exception as e:
+            raise HTTPException(status_code=500, detail="An error occurred while processing the request")
+
+@app.post("/results") #moet een get zijn eigenlijk
+async def handle_results(request: Request):
         try:
             #get body from request
             body =  await request.json()
