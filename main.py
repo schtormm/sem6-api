@@ -109,7 +109,7 @@ async def parse_answers(request: Request):
         except json.JSONDecodeError as e:
             raise HTTPException(status_code=400, detail="Invalid JSON format")
         except Exception as e:
-            raise HTTPException(status_code=500, detail="An error occurred while processing the request")
+            raise HTTPException(status_code=500, detail=f"An error occurred while processing the request, {str(e)}")
 
 @app.post("/results") #moet een get zijn eigenlijk
 async def handle_results(request: Request):
