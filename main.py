@@ -81,8 +81,9 @@ async def parse_answers(request: Request):
             # if data is not there, raise an error
             if not data:
                 raise HTTPException(status_code=400, detail="Data is empty or corrupted")
-            #convert to dictionary
-            data = dict(data)
+            # ensure data is a list, no need to convert to dict
+            if not isinstance(data, list):
+                raise HTTPException(status_code=400, detail="Answers must be a list")
             # get the client id
             client_id = body.get("client")
             if not client_id:
