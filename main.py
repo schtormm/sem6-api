@@ -112,25 +112,3 @@ async def parse_answers(request: Request):
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"An error occurred while processing the request")
 
-@app.post("/results") #moet een get zijn eigenlijk
-async def handle_results(request: Request):
-        try:
-            #get body from request
-            body =  await request.json()
-            #check if body is empty or corrupted
-            if not body:
-                raise HTTPException(status_code=400, detail="Body is empty or corrupted")
-            #check if body is a dictionary
-            #get the data from the body
-            data = body["test"]
-            # if data is not there, raise an error
-            if not data:
-                raise HTTPException(status_code=400, detail="Data is empty or corrupted")
-            #convert to dictionary
-            data = dict(data)
-            print(data)
-            return {"test": 100, "data": data}
-        except json.JSONDecodeError as e:
-            raise HTTPException(status_code=400, detail="Invalid JSON format")
-        except Exception as e:
-            raise HTTPException(status_code=500, detail="An error occurred while processing the request")
