@@ -41,8 +41,8 @@ def hello_world():
 def health():
         return {"status": "ok"}
 
-@app.get("/recommendation")
-def recommendation(minimum_rating: float = 0.0):
+@app.get("/locations")
+def get_locations(minimum_rating: float = 0.0):
     if minimum_rating < 0 or minimum_rating > 5:
         raise HTTPException(status_code=400, detail="Minimum rating must be between 0 and 5")
     try:
@@ -110,7 +110,7 @@ async def parse_answers(request: Request):
         except json.JSONDecodeError as e:
             raise HTTPException(status_code=400, detail="Invalid JSON format")
         except Exception as e:
-            raise HTTPException(status_code=500, detail=f"An error occurred while processing the request, {str(e)}")
+            raise HTTPException(status_code=500, detail=f"An error occurred while processing the request")
 
 @app.post("/results") #moet een get zijn eigenlijk
 async def handle_results(request: Request):
