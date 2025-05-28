@@ -21,7 +21,7 @@ class Recommendation(BaseModel):
      rating: float
 
 class Answer(BaseModel):
-    id: str
+    id: int
     question_type: str
     answer: str
 
