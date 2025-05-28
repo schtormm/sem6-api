@@ -1,4 +1,4 @@
-# Semester 6 - API
+# Semester 6 - API - VONK2
 
 ## Handleiding
 
