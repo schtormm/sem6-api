@@ -71,7 +71,7 @@ async def parse_answers(request: AnswerRequest):
         try:
             return {
                  "client_id": request.client,
-                 "parsed_answers": [answer.model_dump for answer in request.answers]
+                 "parsed_answers": [answer.model_dump() for answer in request.answers]
             }
         except json.JSONDecodeError as e:
             raise HTTPException(status_code=400, detail="Invalid JSON format")
