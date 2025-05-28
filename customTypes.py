@@ -1,5 +1,5 @@
 from datetime import time
-from typing import Literal
+from typing import List, Literal
 
 from pydantic import BaseModel
 
@@ -19,3 +19,12 @@ class Recommendation(BaseModel):
      location: str
      openingHours: OpeningHours
      rating: float
+
+class Answer(BaseModel):
+    id: str
+    question_type: str
+    answer: str
+
+class AnswerRequest(BaseModel):
+    client: str
+    answers: List[Answer]
