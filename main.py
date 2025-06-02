@@ -13,7 +13,7 @@ from utils import convertRecommendationToModel
 # LLM settings
 endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
 deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT")
-api_key = os.getenv("AZURE_OPENAI_KEY")
+api_key = os.getenv("AZURE_OPENAI_API_KEY")
 api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2024-12-01-preview")
 
 
