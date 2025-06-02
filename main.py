@@ -18,8 +18,6 @@ deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 api_key = os.getenv("AZURE_OPENAI_API_KEY")
 api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2024-12-01-preview")
 
-if not endpoint or not deployment or not api_key:
-    raise ValueError("Please set the AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_DEPLOYMENT, and AZURE_OPENAI_API_KEY environment variables.")
 
 app = FastAPI()
 
