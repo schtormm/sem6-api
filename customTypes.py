@@ -28,3 +28,6 @@ class Answer(BaseModel):
 class AnswerRequest(BaseModel):
     client: str
     answers: List[Answer]
+
+class ChatRequest(BaseModel):
+    user_prompt: str

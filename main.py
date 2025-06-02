@@ -1,11 +1,13 @@
 import codecs
 import csv
 import json
+import os
 import random
 
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile
+from openai import AzureOpenAI
 
-from customTypes import AnswerRequest
+from customTypes import AnswerRequest, ChatRequest
 from utils import convertRecommendationToModel
 
 app = FastAPI()
@@ -32,24 +34,59 @@ def get_locations(minimum_rating: float = 0.0):
                 #filter out recommendations with a rating lower than the minimum rating
                 if minimum_rating > 0 and minimum_rating <= 5:
                     data = [row for row in data if float(row["Beoordeling"]) >= minimum_rating]
-                #pick random recommendation
-                random_recommendation = random.choice(data)
-                #convert to dictionary
-                random_recommendation = dict(random_recommendation)
+                #pick three random recommendations from the filtered data
+                if len(data) > 3:
+                    random_recommendations = random.sample(data, 3)
+                else:
+                    random_recommendations = data
+                #convert to Recommendation model
+                if not random_recommendations:
+                    raise HTTPException(status_code=404, detail="No recommendations found with the given rating")
+                converted_recommendations = []
+                for recommendation in random_recommendations:
+                    converted_recommendations.append(convertRecommendationToModel(recommendation))
+    
 
     except csv.Error as e:
             raise HTTPException(status_code=500, detail="File is empty or corrupted")
         
-    return {"recommendation": convertRecommendationToModel(random_recommendation)}
+    return {"recommendation": converted_recommendations}
 
-@app.get("/recommendations")
-async def parse_answers(request: AnswerRequest):
+@app.post("/recommendations")
+def parse_answers(request: AnswerRequest):
     try:
         return {
-            "client_id": request.client,
-            "parsed_answers": [answer.model_dump() for answer in request.answers]
+            "client": request.client,
+            "recommendations": get_locations()["recommendation"]
         }
+    
     except json.JSONDecodeError as e:
             raise HTTPException(status_code=400, detail="Invalid JSON format")
-    except Exception as e:
-            raise HTTPException(status_code=500, detail=f"An error occurred while processing the request")
+
+# LLM settings
+endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT")
+subscription_key = os.getenv("AZURE_OPENAI_KEY")
+api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2024-12-01-preview")
+
+client = AzureOpenAI(
+    api_version=api_version,
+    azure_endpoint=endpoint,
+    api_key=subscription_key,
+)
+
+with open("System_prompt.txt", "r", encoding="utf-8") as f:
+    SYSTEM_PROMPT = f.read()
+
+@app.post("/chat")
+async def chat(request: ChatRequest):
+    response = client.chat.completions.create(
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": request.user_prompt},
+        ],
+        max_tokens=1024,
+        temperature=0.5,
+        model=deployment,
+    )
+    return {"response": response.choices[0].message.content}
