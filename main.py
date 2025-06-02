@@ -4,12 +4,14 @@ import json
 import os
 import random
 
+from dotenv import load_dotenv
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile
 from openai import AzureOpenAI
 
 from customTypes import AnswerRequest, ChatRequest
 from utils import convertRecommendationToModel
 
+load_dotenv()
 # LLM settings
 endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
 deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT")
