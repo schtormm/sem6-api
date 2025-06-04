@@ -65,6 +65,9 @@ def get_locations(minimum_rating: float = 0.0):
 @app.post("/recommendations")
 def parse_answers(request: AnswerRequest):
     try:
+        if not request.answers:
+            raise HTTPException(status_code=400, detail="No answers provided")
+        print("AI answer:", chat("Can you recommend me some sights or places to visit / eat in the city?"))
         return {
             "client": request.client,
             "recommendations": get_locations()["recommendation"]
